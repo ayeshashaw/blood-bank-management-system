@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Doctor</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<body style="background-color: cornflowerblue"><div style="align:center;">
+<center>
+ <div class="main">
+        <div class="navbar">
+            <div class="icon">
+               <a href="#default" class="logo"><img class="logo" src="logo6.png"></a>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="menu.html">HOME</a></li></li>
+                    <li><a href="index.html">lOGIN</a></li>
+                    <li><a href="donor.html">DONOR</a>
+                    <li><a href="receiver.jsp">RECEIVER</a></li>
+                    <li><a href="doctor.html">DOCTOR</a></li>
+                    <li><a href="inventory.html">INVENTORY</a></li>
+                     <li><a href="delete.jsp">DELETE</a></li></li>
+                    
+                </ul>
+            </div>
+
+            
+
+        </div>
+
+<div class="center">
+      <h1>Enter Doctor Details</h1>
+
+     
+
+
+<form method="get" action="doctor.jsp">
+
+
+ <div class="txt_field">
+    <input type="text" required>
+          <span></span>
+   <label>Name</label>
+        </div>
+        <div class="txt_field">
+          <input type="text" required>
+          <span></span>
+          <label>Address</label>
+        </div>
+         <div class="txt_field">
+          <input type="number" required>
+          <span></span>
+          <label>Contact</label>
+        </div>
+         
+</form>
+
+Blood Group:
+<select name="doctorbg">
+<option>A+</option>
+<option>A-</option>
+<option>B+</option>
+<option>B-</option>
+</select><br><br>
+<input type="submit" value="Submit" />
+<input type="reset" value="Cancel" />
+</form><br><br>
+
+</center>
+</body>
+</html>
